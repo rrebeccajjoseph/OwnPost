@@ -14,6 +14,18 @@
 		5052D5592CE34481004EEAAB /* OwnPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052D5582CE34481004EEAAB /* OwnPostTests.swift */; };
 		5052D5632CE34481004EEAAB /* OwnPostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052D5622CE34481004EEAAB /* OwnPostUITests.swift */; };
 		5052D5652CE34481004EEAAB /* OwnPostUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052D5642CE34481004EEAAB /* OwnPostUITestsLaunchTests.swift */; };
+		509391CE2CE7AE5000C8530E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391CD2CE7AE5000C8530E /* HomeView.swift */; };
+		509391D02CE7AE5D00C8530E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391CF2CE7AE5D00C8530E /* ProfileView.swift */; };
+		509391D22CE7AE7600C8530E /* DataDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391D12CE7AE7600C8530E /* DataDashboardView.swift */; };
+		509391D52CE7AE9300C8530E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391D42CE7AE9300C8530E /* User.swift */; };
+		509391D72CE7AEA000C8530E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391D62CE7AEA000C8530E /* Post.swift */; };
+		509391DA2CE7B03100C8530E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391D92CE7B03100C8530E /* HomeViewModel.swift */; };
+		509391DC2CE7B03C00C8530E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391DB2CE7B03C00C8530E /* ProfileViewModel.swift */; };
+		509391DE2CE7B04900C8530E /* DataDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391DD2CE7B04900C8530E /* DataDashboardViewModel.swift */; };
+		509391E12CE7B05A00C8530E /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391E02CE7B05A00C8530E /* UserService.swift */; };
+		509391E32CE7B06500C8530E /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391E22CE7B06500C8530E /* PostService.swift */; };
+		509391E52CE7B07200C8530E /* DataTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509391E42CE7B07200C8530E /* DataTrackingService.swift */; };
+		509391E72CE7D2FC00C8530E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 509391E62CE7D2FC00C8530E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		5052D55E2CE34481004EEAAB /* OwnPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwnPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5052D5622CE34481004EEAAB /* OwnPostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnPostUITests.swift; sourceTree = "<group>"; };
 		5052D5642CE34481004EEAAB /* OwnPostUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnPostUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		509391CD2CE7AE5000C8530E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		509391CF2CE7AE5D00C8530E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		509391D12CE7AE7600C8530E /* DataDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDashboardView.swift; sourceTree = "<group>"; };
+		509391D42CE7AE9300C8530E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		509391D62CE7AEA000C8530E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		509391D92CE7B03100C8530E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		509391DB2CE7B03C00C8530E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		509391DD2CE7B04900C8530E /* DataDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDashboardViewModel.swift; sourceTree = "<group>"; };
+		509391E02CE7B05A00C8530E /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		509391E22CE7B06500C8530E /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		509391E42CE7B07200C8530E /* DataTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTrackingService.swift; sourceTree = "<group>"; };
+		509391E62CE7D2FC00C8530E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +118,17 @@
 		5052D5462CE34480004EEAAB /* OwnPost */ = {
 			isa = PBXGroup;
 			children = (
+				509391DF2CE7B04D00C8530E /* Services */,
+				509391D82CE7B02200C8530E /* ViewModels */,
+				509391D32CE7AE8800C8530E /* Models */,
 				5052D5472CE34480004EEAAB /* OwnPostApp.swift */,
 				5052D5492CE34480004EEAAB /* ContentView.swift */,
 				5052D54B2CE34481004EEAAB /* Assets.xcassets */,
 				5052D54D2CE34481004EEAAB /* Preview Content */,
+				509391CD2CE7AE5000C8530E /* HomeView.swift */,
+				509391CF2CE7AE5D00C8530E /* ProfileView.swift */,
+				509391D12CE7AE7600C8530E /* DataDashboardView.swift */,
+				509391E62CE7D2FC00C8530E /* .gitignore */,
 			);
 			path = OwnPost;
 			sourceTree = "<group>";
@@ -125,6 +156,35 @@
 				5052D5642CE34481004EEAAB /* OwnPostUITestsLaunchTests.swift */,
 			);
 			path = OwnPostUITests;
+			sourceTree = "<group>";
+		};
+		509391D32CE7AE8800C8530E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				509391D42CE7AE9300C8530E /* User.swift */,
+				509391D62CE7AEA000C8530E /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		509391D82CE7B02200C8530E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				509391D92CE7B03100C8530E /* HomeViewModel.swift */,
+				509391DB2CE7B03C00C8530E /* ProfileViewModel.swift */,
+				509391DD2CE7B04900C8530E /* DataDashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		509391DF2CE7B04D00C8530E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				509391E02CE7B05A00C8530E /* UserService.swift */,
+				509391E22CE7B06500C8530E /* PostService.swift */,
+				509391E42CE7B07200C8530E /* DataTrackingService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5052D54F2CE34481004EEAAB /* Preview Assets.xcassets in Resources */,
+				509391E72CE7D2FC00C8530E /* .gitignore in Resources */,
 				5052D54C2CE34481004EEAAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +318,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509391D02CE7AE5D00C8530E /* ProfileView.swift in Sources */,
+				509391E52CE7B07200C8530E /* DataTrackingService.swift in Sources */,
+				509391CE2CE7AE5000C8530E /* HomeView.swift in Sources */,
+				509391D52CE7AE9300C8530E /* User.swift in Sources */,
+				509391DC2CE7B03C00C8530E /* ProfileViewModel.swift in Sources */,
+				509391DA2CE7B03100C8530E /* HomeViewModel.swift in Sources */,
 				5052D54A2CE34480004EEAAB /* ContentView.swift in Sources */,
+				509391E12CE7B05A00C8530E /* UserService.swift in Sources */,
+				509391E32CE7B06500C8530E /* PostService.swift in Sources */,
 				5052D5482CE34480004EEAAB /* OwnPostApp.swift in Sources */,
+				509391DE2CE7B04900C8530E /* DataDashboardViewModel.swift in Sources */,
+				509391D72CE7AEA000C8530E /* Post.swift in Sources */,
+				509391D22CE7AE7600C8530E /* DataDashboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
