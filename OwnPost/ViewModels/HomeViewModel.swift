@@ -6,3 +6,11 @@
 //
 
 import Foundation
+class HomeViewModel: ObservableObject {
+    @Published var posts: [Post] = []
+    private let postService = PostService()
+    
+    func fetchPosts() {
+        posts = postService.getFeed()
+    }
+}

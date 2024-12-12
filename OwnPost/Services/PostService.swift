@@ -6,3 +6,12 @@
 //
 
 import Foundation
+class PostService {
+    func createPost(user: User, content: String, image: UIImage?) {
+        // Create and save new post
+    }
+    
+    func getFeed() -> [Post] {
+        // Fetch and return feed posts
+    }
+}
