@@ -1,2 +1,15 @@
 # OwnPost
-Twitter App with Data Autonomy
+Own Post Reflection
+
+Critics often highlight social media's role in compartmentalizing our thoughts, actions, and emotions for consumption by an audience of opinionated strangers. Classroom discussions frequently center on the idea that the greatest issue with social media lies in the blank stares of judgment it fosters. However, as a data enthusiast, I believe there is a deeper, more insidious concern: the data machine that powers these platforms.
+
+Throughout this course, I have maintained my belief that data mining is not inherently harmful and can be a force for good. The integration of data with emerging technologies has led to groundbreaking advancements in areas such as drug therapies, financial innovation, and life optimization. As someone deeply immersed in Silicon Valley's startup ecosystem, where data is currency, I spend much of my time either scraping data or lamenting the lack of publicly available datasets to build upon. This experience has shaped my conviction: if I am to capitalize on the data economy, I must also be willing to share my own data.
+
+	This belief inspired the creation of my app, Own Post. The app challenges traditional power dynamics by giving users autonomy over their data. It allows them to view, control, and even sell their demographic, interaction, and activity data back to the app developer. In essence, it seeks to redistribute power from corporations back to individuals—a concept I find both empowering and necessary in today’s digital landscape.
+Own Post aligns with Glen Weyl’s concept of "data as labor," which posits that users are being exploited when their data is harvested for free. By enabling users to profit from their own data, my app flips this dynamic on its head. While we are still being watched in this new "data panopticon," users now have the ability to decide how their information is used and monetized. This approach reflects my broader philosophy: autonomy is key. Users should have the freedom to choose whether to share their data and should benefit from doing so.
+
+The app includes core social media features such as posting, following, and interacting with content. It also incorporates real-time data tracking through event listeners for likes, shares, and follows. The most innovative feature is the "Data Dashboard," where users can view detailed metrics about their interactions and demographic information. From there, they can sell specific pieces of their data in exchange for virtual currency—simulating a fairer data economy.
+Ultimately, this project reflects my hope for a future where social media platforms prioritize user empowerment over-exploitation. While it may take time for these ideas to gain traction, I am excited to share my app with friends and peers as a small step toward change. Perhaps one day, more companies will adopt similar models that give users greater control over their digital lives.
+
+In this future, it won’t just be critics judging us—it will be us reclaiming our power.
+
